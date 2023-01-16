@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Extension Source Download"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Through a toolbar popup, you can download Chrome extension source code in .zip or.crx formats.",
+   "homepage_url": "https://www.downloadhub.cloud/2023/01/extension.html",
+   "host_permissions": [ "*://clients2.google.com/service/update2/crx*", "*://clients2.googleusercontent.com/crx/download/*" ],
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "manifest_version": 3,
+   "name": "Extension Source Download",
+   "permissions": [ "storage", "activeTab", "downloads" ],
+   "version": "1.2"
+}
